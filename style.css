@@ -1,0 +1,27 @@
+/* Basic page styling */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Styling for the dots */
+  .dot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  
